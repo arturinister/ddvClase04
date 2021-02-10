@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejemplos de Formularios</title>
+    </head>
+    <body>
+        <h2>Ejemplos de Formularios</h2>
+
+        <form>
+            Entrada de Datos de tipo text:
+            <input type="text" id="email" name="email" size="70" value="usuario@dominio.com"/>
+            <br/><br/>
+
+            Entrada de Datos de tipo password:
+            <input type="password" id="clave" name="clave" size="20"/>
+            <br/><br/>
+
+            Entrada de Datos de tipo checkbox:
+            <br/>
+            Marque que lenguaje desea aprender:<br/>
+            <input type="checkbox" name="lenguaje" value="html">HTML
+            <input type="checkbox" name="lenguaje" value="javascript">Javascript 
+            <input type="checkbox" name="lenguaje" value="css">CSS
+            <input type="checkbox" name="lenguaje" value="xml">XML
+            <br/><br/>
+
+            Entrada de Datos de tipo radio:
+            <br/>
+            Elija su rango de edad:
+            <input type="radio" id="menos18" value="menos18" name="edad"/>Menos de 18
+            <input type="radio" id="18a30" value="18a30" name="edad"/>18 a 30
+            <input type="radio" id="31a50" value="31a50" name="edad"/>31 a 50
+            <input type="radio" id="mas50" value="mas50" name="edad"/>Más de 50
+            <br/><br/>
+
+            Entrada de Datos de tipo file:
+            <input type="file" id="identificador" value="valor" name="nombre"/>
+            <br/><br/>
+
+            Entrada de Datos de tipo hidden:
+            <input type="hidden" id="identificador" value="valor" name="nombre"/>
+            <br/><br/>
+
+            Entrada de Datos de tipo image:
+            <input type="image" src="images/image421.jpg" name="nombre" alt="texto-alternativo"/>
+            <br/><br/>
+
+            Textarea:
+            <textarea rows="20" cols="100" name="nombre">Escriba su comentario...</textarea>
+            <br/><br/>
+
+            Select:
+            <select name="equipoFavorito" size="5">
+                <option value="arsenal" selected="selected">Arsenal</option>
+                <option value="chelsea">Chelsea</option>
+                <option>Everton</option>
+                <option>Liverpool</option>
+                <option>Manchester United</option>
+            </select>
+            <br/><br/><br/>
+
+            Select con optgroup:
+
+            <select name="ciudad"> 
+                <optgroup label="Europa"> 
+                    <option>Madrid</option>
+                    <option>Londres</option>
+                    <option>Paris</option>
+                </optgroup>
+
+                <optgroup label="América">
+                    <option>San Salvador</option>
+                    <option>Sao Paulo</option>
+                    <option>Lima</option>
+                    <option>Los Angeles</option>
+                </optgroup>
+
+                <optgroup label="Africa"> 
+                    <option>Casablanca</option> 
+                    <option>Ciudad del Cabo</option>
+                </optgroup>
+                
+            </select>
+
+            <br/><br/>
+            
+            Entrada de Datos de tipo button:
+            <input type="button" value="Presioname"/>
+            <br/><br/>
+
+            Entrada de Datos de tipo submit:
+            <input type="submit" value="Enviar datos al servidor"/>
+            <br/><br/>
+            
+            Entrada de Datos de tipo reset
+            <input type="reset" value="Limpiar Datos"/>
+            <br/><br/>
+
+            Button:
+            <button name="nombre" type="reset" value="hhh">Botón</button>
+            <br/><br/><br/><br/>
+
+        </form>
+
+    </body>
+</html>
